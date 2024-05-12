@@ -5,6 +5,10 @@ import Layout from 'components/Layout/Layout';
 import About from 'pages/About/About';
 import Home from 'pages/Home/Home';
 import Users from 'pages/Users/Users';
+import Clients from 'pages/Clients/Clients';
+import Amazon from 'pages/Clients/components/Amazon/Amazon';
+import Facebook from 'pages/Clients/components/Facebook/Facebook';
+import Google from 'pages/Clients/components/Google/Google';
 
 // Lessons
 // import Lesson06 from 'lessons/Lesson06/Lesson06';
@@ -36,6 +40,10 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/users' element={<Users />} />
+          <Route path='/clients' element={<Clients />} />
+          <Route path='/clients/amazon' element={<Amazon />} />
+          <Route path='/clients/facebook' element={<Facebook />} />
+          <Route path='/clients/google' element={<Google />} />
           <Route path='*' element='Page Not Found'/>
         </Routes>
       </Layout>
