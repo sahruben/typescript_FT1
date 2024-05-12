@@ -18,7 +18,7 @@ import Google from 'pages/Clients/components/Google/Google';
 // import Lesson10 from 'lessons/Lesson10/Lesson10';
 // import Lesson11 from 'lessons/Lesson11/Lesson11';
 // import Lesson12 from 'lessons/Lesson12/Lesson12';
-
+import Lesson14 from 'lessons/Lesson14/Lesson14';
 
 // Homeworks
 // import Homework07 from 'homeworks/Homework07/Homework07'
@@ -35,7 +35,9 @@ function App() {
   return (
     <BrowserRouter>
       <GlobalStyles />
-      <Layout>
+      {/* Lesson 13 */}
+      {/* Homework 13 */}
+      {/* <Layout>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
@@ -46,7 +48,7 @@ function App() {
           <Route path='/clients/google' element={<Google />} />
           <Route path='*' element='Page Not Found'/>
         </Routes>
-      </Layout>
+      </Layout> */}
       {/* <Lesson06 /> */}
       {/* <Lesson07 /> */}
       {/* <Homework07 /> */}
@@ -60,6 +62,7 @@ function App() {
       {/* <Homework11 /> */}
       {/* <Lesson12 /> */}
       {/* <Consultation05 /> */}
+      <Lesson14 />
     </BrowserRouter>
   );
 }
