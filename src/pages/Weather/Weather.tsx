@@ -25,7 +25,7 @@ function Weather() {
   //стейт, который контролирует индикатор загрузки
   const [isLoading, setIsLoading] = useState<boolean>(false)
 
-  const APP_ID: string = "eea75aae6dbe00233ac1efadf2d99a2a";
+  const APP_ID: string = "6d03d90cff0e67389eac105b53df2e12";
   const URL: string = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APP_ID}`;
 
   const getWeatherInfo = async () => {
